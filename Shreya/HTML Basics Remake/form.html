@@ -1,0 +1,40 @@
+<html>
+    <body>
+        
+        <form>
+                <h1>Register</h1>
+           <p>
+                <label for="first">First Name</label>
+                <input type="text" name="first" placeholder="First Name" required>
+                <label for="last">Last Name</label>
+                <input type="text" name="last" placeholder="Last Name" required>
+           </p>
+            <p>
+                <label for="gender">Gender:</label>
+                <label for="male">Male:</label>
+                <input type="radio" id="male" required>
+                <label for="female">Female:</label>
+                <input type="radio" id="female" required>
+                <label for="others">Others:</label>
+                <input type="radio" id="others" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Email">
+                <label for="password">Password:</label>
+                <input type="password" pattern=".{5,15}" title="PLease enter minimum 5 and maximum 15 characters">
+                <label for="date">Birthday</label>
+            <input type="date">
+            </p>
+            <p>
+                <label for="check">I agree to the terms and conditions</label>
+                <input type="checkbox" name="check">
+            </p>
+            <p>
+                <button>Submit</button>
+            </p>
+            
+            
+        </form>
+    </body>
+</html>
