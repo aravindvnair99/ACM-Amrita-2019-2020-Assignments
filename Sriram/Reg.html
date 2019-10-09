@@ -11,22 +11,22 @@
 
     <form id="Form">
       First name:
-      <input type="text" name="firstname" value="First name" />
+      <input type="text" name="firstname" value="First name" required/>
       Last name:
       <input type="text" name="lastname" value="Last name" /><br /><br />
       Gender:
       <label for="male">Male</label>
-      <input type="radio" name="gender" value="male" checked /> Male
+      <input type="radio" name="gender" value="male" /> Male
       <label for="female">Female</label>
       <input type="radio" name="gender" value="female" /> Female
       <label for="other">Other</label>
       <input type="radio" name="gender" value="other" /> Other<br /><br />
       Email:
-      <input type="text" name="email" required />
+      <input type="email" name="email" required />
       Password:
-      <input type="password" name="psw" />
+      <input type="password" name="psw" required/>
       Birthday: <input type="date" name="bday" /><br />
-     I agree to terms and conditions <input type="checkbox" name="terms"><br>
+     I agree to terms and conditions <input type="checkbox" name="terms" required><br>
 
       <br /><br />
       <input type="submit" value="Submit" />
