@@ -5,6 +5,7 @@
     </head>
     <body>
         <h1><b>Register</b></h1>
+        <form id = "form 1">
         <form id = "required">
         <b>First name:</b>
         <input type="text" name="firstname" placeholder="First Name" required>
@@ -22,16 +23,15 @@
             <br><br>
 
                     <b>E-mail:</b>
-                    <input type="email" name="email" placeholder="E-mail"  minlength="5" maxlength="15" required >
-                    <b>Password:</b>
-                    <input type="password" name="password" placeholder="Password">
+                    <input type="email" name="email" placeholder="E-mail"  minlength="5" maxlength="15" required >                    <b>Password:</b>
+                    <input type="password" name="password" placeholder="Password" minlength="5" maxlenght="15" required>
                     <b>Birthday:</b> 
                     <input type="date" name="birthday" required>
                     <br><br>
-                    <b>I agree to the terms and conditions</b><input type="checkbox">
+                    <b>I agree to the terms and conditions</b><input type="checkbox" required>
                     <br><br>
                     <input type="submit">
-
+            </form>
             </form>
     </body>
 </html>
