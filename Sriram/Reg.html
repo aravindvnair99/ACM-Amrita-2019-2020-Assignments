@@ -11,7 +11,7 @@
 
     <form id="Form">
       First name:
-      <input type="text" name="firstname" placeholder="First name" autocomplete="on" required/>
+      <input type="text" name="firstname" placeholder="First name" autocomplete="username" required/>
       Last name:
       <input type="text" name="lastname" placeholder="Last name" autocomplete="on" /><br /><br />
       Gender:
@@ -22,9 +22,9 @@
       <label for="other">Other</label> 
       <input type="radio" name="gender" value="other" required/> <br /><br />
       Email:
-      <input type="email" name="email" required />
+      <input type="email" name="email" autocomplete="email" required />
       Password:
-      <input type="password" name="psw" required/>
+      <input type="password" name="psw" autocomplete="email"required/>
       Birthday: <input type="date" name="bday" required/><br />
      I agree to terms and conditions <input type="checkbox" name="terms" required><br>
 
