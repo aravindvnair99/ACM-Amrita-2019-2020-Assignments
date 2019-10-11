@@ -7,7 +7,7 @@
 
 <body>
     <h1><b>Register</b></h1>
-    <form id="registration_form">
+    <form id="registration_form"  method="get" autocomplete="on">
         <b>First name:</b>
         <input type="text" name="firstname" placeholder="First Name" required>
         <b>Last name:</b>
@@ -16,11 +16,11 @@
 
         <b>Gender:</b>
         <label for="male">Male</label>
-        <input type="radio" name="gender" value="male" required>
+        <input type="radio" name="gender" id="male" value="male" required>
         <label for="female">Female</label>
-        <input type="radio" name="gender" value="female">
+        <input type="radio" name="gender" id="female" value="female">
         <label for="others">Others</label>
-        <input type="radio" name="gender" value="others">
+        <input type="radio" name="gender" id="others" value="others">
         <br><br>
 
         <b>E-mail:</b>
