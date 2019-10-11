@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Assignment Regn</title>
-    </head>
-    <body>
-        <h1><b>Register</b></h1>
-        <form id = "registration_form">
+
+<head>
+    <title>Assignment-Registration Form</title>
+</head>
+
+<body>
+    <h1><b>Register</b></h1>
+    <form id="registration_form">
         <b>First name:</b>
         <input type="text" name="firstname" placeholder="First Name" required>
         <b>Last name:</b>
-        <input type="text" name="lastname" placeholder="Last Name">
+        <input type="text" name="lastname" placeholder="Last Name" required>
         <br><br>
-     
-            <b>Gender:</b>
-            <label for = "male">Male</label>
-            <input type="radio" name="gender" value="male" required> 
-            <label for = "female">Female</label>
-            <input type="radio" name="gender" value="female">
-            <label for = "others">Others</label>
-            <input type="radio" name="gender" value="other">
-            <br><br>
 
-                    <b>E-mail:</b>
-                    <input type="email" name="email" placeholder="E-mail"  minlength="5" maxlength="15" required >                    <b>Password:</b>
-                    <input type="password" name="password" placeholder="Password" minlength="5" maxlenght="15" required>
-                    <b>Birthday:</b> 
-                    <input type="date" name="birthday" required>
-                    <br><br>
-                    <b>I agree to the terms and conditions</b><input type="checkbox" required>
-                    <br><br>
-                    <input type="submit">
-            </form>
-    </body>
+        <b>Gender:</b>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female">
+        <label for="others">Others</label>
+        <input type="radio" name="gender" value="others">
+        <br><br>
+
+        <b>E-mail:</b>
+        <input type="email" name="email" placeholder="E-mail" minlength="5" maxlength="15" required>
+        <b>Password:</b>
+        <input type="password" name="password" placeholder="Password" minlength="5" maxlength="15" required>
+        <b>Birthday:</b>
+        <input type="date" name="birthday" required>
+        <br><br>
+
+        <b>I agree to the terms and conditions</b><input type="checkbox" required>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+
 </html>
