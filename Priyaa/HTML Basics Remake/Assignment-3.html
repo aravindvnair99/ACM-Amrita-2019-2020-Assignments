@@ -7,11 +7,11 @@
 
 <body>
     <h1><b>Register</b></h1>
-    <form id="registration_form"  method="get" autocomplete="on">
+    <form id="registration_form" method="post">
         <b>First name:</b>
-        <input type="text" name="firstname" placeholder="First Name" required>
+        <input type="text" name="firstname" placeholder="First Name" autocomplete="on" required>
         <b>Last name:</b>
-        <input type="text" name="lastname" placeholder="Last Name" required>
+        <input type="text" name="lastname" placeholder="Last Name" autocomplete="on" required>
         <br><br>
 
         <b>Gender:</b>
@@ -24,7 +24,7 @@
         <br><br>
 
         <b>E-mail:</b>
-        <input type="email" name="email" placeholder="E-mail" minlength="5" maxlength="15" required>
+        <input type="email" name="email" placeholder="E-mail" minlength="5" maxlength="15" autocomplete="on" required>
         <b>Password:</b>
         <input type="password" name="password" placeholder="Password" minlength="5" maxlength="15" required>
         <b>Birthday:</b>
