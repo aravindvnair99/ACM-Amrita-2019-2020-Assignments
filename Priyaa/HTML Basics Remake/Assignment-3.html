@@ -9,9 +9,9 @@
     <h1><b>Register</b></h1>
     <form id="registration_form" method="post">
         <b>First name:</b>
-        <input type="text" name="firstname" placeholder="First Name" autocomplete="on" required>
+        <input type="text" name="firstname" placeholder="First Name" autocomplete="given-name" required>
         <b>Last name:</b>
-        <input type="text" name="lastname" placeholder="Last Name" autocomplete="on" required>
+        <input type="text" name="lastname" placeholder="Last Name" autocomplete="family-name" required>
         <br><br>
 
         <b>Gender:</b>
@@ -24,11 +24,11 @@
         <br><br>
 
         <b>E-mail:</b>
-        <input type="email" name="email" placeholder="E-mail" minlength="5" maxlength="15" autocomplete="on" required>
+        <input type="email" name="email" placeholder="E-mail" minlength="5" maxlength="15" autocomplete="email" required>
         <b>Password:</b>
-        <input type="password" name="password" placeholder="Password" minlength="5" maxlength="15" required>
+        <input type="password" name="password" placeholder="Password" minlength="5" maxlength="15" autocomplete="current-password" required>
         <b>Birthday:</b>
-        <input type="date" name="birthday" required>
+        <input type="date" name="birthday" autocomplete="bday" required>
         <br><br>
 
         <b>I agree to the terms and conditions</b><input type="checkbox" required>
