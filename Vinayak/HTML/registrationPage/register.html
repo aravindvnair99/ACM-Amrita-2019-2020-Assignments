@@ -1,38 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Registration Page</title>
+	</head>
 
-<head>
-	<title>Forms Exercise</title>
-</head>
+	<body>
+		<h1>Register</h1>
+		<form id="register">
+			<label for="fName">First Name</label>
+			<input
+				type="text"
+				name="fName"
+				id="fName"
+				placeholder="First Name"
+				required
+				autocomplete="given-name"
+			/>
+			<label for="lName">Last Name</label>
+			<input
+				type="text"
+				name="lName"
+				id="lName"
+				placeholder="Last Name"
+				required
+				autocomplete="family-name"
+			/>
+			<p>
+				Gender:
+				<label for="male">Male:</label>
+				<input type="radio" name="gender" id="male" value="male" />
+				<label for="female">Female:</label>
+				<input type="radio" name="gender" id="female" value="female" />
+				<label for="others">Others:</label>
+				<input type="radio" name="gender" id="others" value="others" />
+			</p>
 
-<body>
-	<h1>Register</h1>
-	<form id="register">
-		<label for="fName">First Name</label>
-		<input type="text" name="fName" id="fName" placeholder="First Name" required autocomplete="given-name">
-		<label for="lName">Last Name</label>
-		<input type="text" name="lName" id="fName" placeholder="Last Name" required autocomplete="family-name">
-		<p>Gender:
-			<label for="male">Male:</label>
-			<input type="radio" name="gender" id="male" value="male">
-			<label for="female">Female:</label>
-			<input type="radio" name="gender" id="female" value="female">
-			<label for="others">Others:</label>
-			<input type="radio" name="gender" id="others" value="others">
-		</p>
-
-		<label for="Email"> Email:</label>
-		<input type="email" name="email" id="Email" placeholder="Email" required autocomplete="email">
-		<label for="pw">Password:</label>
-		<input type="password" name="pw" id="pw" placeholder="Password" minlength="5" maxlength="15" name="password" autocomplete="current-password">
-		<label for="bdy">Birthday</label>
-		<input type="date" name="date" id="bdy" required>
-		<div>
-			<label for="tc">I agree to terms and conditions</label>
-			<input type="checkbox" name="tc" id="tc" required>
-		</div>
-		<input type="submit">
-	</form>
-
-</body>
+			<label for="Email"> Email:</label>
+			<input
+				type="email"
+				name="email"
+				id="Email"
+				placeholder="Email"
+				required
+				autocomplete="email"
+			/>
+			<label for="pw">Password:</label>
+			<input
+				type="password"
+				name="pw"
+				id="pw"
+				placeholder="Password"
+				minlength="5"
+				maxlength="15"
+				name="password"
+				autocomplete="new-password"
+			/>
+			<label for="bdy">Birthday</label>
+			<input
+				type="date"
+				name="date"
+				id="bdy"
+				autocomplete="bday"
+				required
+			/>
+			<p>
+				<label for="tc">I agree to terms and conditions</label>
+				<input type="checkbox" name="tc" id="tc" required />
+			</p>
+			<input type="submit" />
+		</form>
+	</body>
 </html>
