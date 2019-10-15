@@ -10,25 +10,26 @@
     <h1>Register</h1>
     <form action="">
         <label for="First_name">First Name</label>
-        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="First Name" required>
         <label for="Last_name">Last Name</label>
-        <input type="text" placeholder="Last Name">
+        <input type="text" placeholder="Last Name"required>
         <br/><br/>
-        <label for="Gender_Male">Gender: Male:</label>
-        <input type="radio">
-        <label for="Gender_Female">Female</label>
-        <input type="radio">
-        <label for="Gender_Others">Others</label>
-        <input type="radio">
+        <label for="Gender">Gender</label>
+        <label for="Gender">Male</label>
+        <input type="radio"name ="Gender"id="Male">
+        <label for="Gender">Female</label>
+        <input type="radio"name="Gender"id ="Female">
+        <label for="Gender">Others</label>
+        <input type="radio"name ="Gender"id="Others">
         <label for="email"><br/><br/>Email:</label>
-        <input type="email" name="" id="" placeholder="Email">
+        <input type="email" name="email" id="email" placeholder="Email">
         <label for="Password">Password:</label>
-        <input type="password" name="" id="">
+        <input type="password" name="password" id="password">
         <label for="birthday">Birthday</label>
-        <input type="date" name="" id="">
+        <input type="date" name="date" id="date">
         <br/>
         <label for="terms">I agree to terms and conditions </label>
-        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="terms_agree" id="terms_agree">
         <br/>
         <label for="submit"></label>
         <input type="submit" value="Submit">
