@@ -13,9 +13,13 @@
             <br>
             <br>
             Gender:
-            <label>Male:<input type="radio" name="gender" value="male" checked></label>
-            <label>Female:<input type="radio" name="gender" value="female"></label>
-            <label>Other:<input type="radio" name="gender" value="other" ></label>
+
+            <label for="Male">Male:</label>
+            <input id="Male" type="radio" name="gender" value="male" checked>
+            <label for="Female">Female:</label>
+            <input id="Female" type="radio" name="gender" value="female">
+            <label for="Other">Other:</label>
+            <input id="Other" type="radio" name="gender" value="other" >
             <br>
             <br>
             Email:
@@ -23,7 +27,7 @@
             Password:
             <input type="password" name="password" minlength="5" maxlength="15" required>
             Birthday:
-            <input type="date" name="birthday"><br>
+            <input type="date" name="birthday" required><br>
             I agree to the terms and conditions
             <input type="checkbox" name="agree" required><br>
             <input type="submit" value="submit">
