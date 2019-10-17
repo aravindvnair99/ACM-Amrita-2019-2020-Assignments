@@ -5,7 +5,7 @@
     </head>
     <body>
         <h1>Register</h1>
-        <form>
+        <form autocomplete="on">
             First name:
             <input type="text" name="Firstname"  placeholder="Firstname" required>
             Last name:
@@ -13,9 +13,8 @@
             <br>
             <br>
             Gender:
-
             <label for="Male">Male:</label>
-            <input id="Male" type="radio" name="gender" value="male" checked>
+            <input id="Male" type="radio" name="gender" value="male">
             <label for="Female">Female:</label>
             <input id="Female" type="radio" name="gender" value="female">
             <label for="Other">Other:</label>
