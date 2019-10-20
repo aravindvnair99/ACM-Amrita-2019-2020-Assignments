@@ -7,9 +7,9 @@
         <h1>Register</h1>
         <form >
             First name:
-            <input type="text" name="Firstname"  placeholder="Firstname" required>
+            <input type="text" name="Firstname"  placeholder="Firstname" required autocomplete="family-name">
             Last name:
-            <input type="text" name="Lastname" placeholder="Lastname" required>
+            <input type="text" name="Lastname" placeholder="Lastname" required autocomplete="name">
             <br>
             <br>
             Gender:
@@ -22,11 +22,11 @@
             <br>
             <br>
             Email:
-            <input type="email" name="email" placeholder="Email" required>
+            <input type="email" name="email" placeholder="Email" required autocomplete="email">
             Password:
-            <input type="password" name="password" minlength="5" maxlength="15" required>
+            <input type="password" name="password" minlength="5" maxlength="15" required autocomplete="current-password">
             Birthday:
-            <input type="date" name="birthday" autocomplete="on"><br>
+            <input type="date" name="birthday" autocomplete="bday"><br>
             I agree to the terms and conditions
             <input type="checkbox" name="agree" required><br>
             <input type="submit" value="submit">
