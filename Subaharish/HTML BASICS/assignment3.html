@@ -7,24 +7,24 @@
         <h1>Register</h1>
         <form >
             First name:
-            <input type="text" name="Firstname"  placeholder="Firstname" required autocomplete="family-name">
+            <input type="text" name="Firstname"  placeholder="Firstname" required autocomplete="given-name">
             Last name:
-            <input type="text" name="Lastname" placeholder="Lastname" required autocomplete="name">
+            <input type="text" name="Lastname" placeholder="Lastname" required autocomplete="family-name">
             <br>
             <br>
             Gender:
             <label for="Male">Male:</label>
-            <input id="Male" type="radio" name="gender" value="male">
+            <input type="radio" name="gender" id="Male" value="Male">
             <label for="Female">Female:</label>
-            <input id="Female" type="radio" name="gender" value="female">
+            <input type="radio" name="gender" id="Female" value="Female">
             <label for="Other">Other:</label>
-            <input id="Other" type="radio" name="gender" value="other" >
+            <input type="radio" name="gender" id="Other" value="Other" >
             <br>
             <br>
             Email:
             <input type="email" name="email" placeholder="Email" required autocomplete="email">
             Password:
-            <input type="password" name="password" minlength="5" maxlength="15" required autocomplete="current-password">
+            <input type="password" name="password" minlength="5" maxlength="15" required autocomplete="new-password">
             Birthday:
             <input type="date" name="birthday" autocomplete="bday"><br>
             I agree to the terms and conditions
