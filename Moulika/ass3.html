@@ -8,31 +8,30 @@
 </head>
 <body>
     <h1>Register</h1>
-    <form>
-        <label for="First_name">First Name</label>
-        <input type="text" placeholder="First Name" required autocomplete="on">
-        <label for="Last_name">Last Name</label>
-        <input type="text" placeholder="Last Name"required autocomplete="on">
+    <form id="Register">
+        <label for="Register">First Name</label>
+        <input type="text" placeholder="First Name" required autocomplete="given-name">
+        <label for="Register">Last Name</label>
+        <input type="text" placeholder="Last Name"required autocomplete="family-name">
         <br/><br/>
-        <label for="Gender">Gender</label>
-        <label for="Gender">Male</label>
-        <input type="radio"name ="Gender"id="Male"autocomplete="on">
-        <label for="Gender">Female</label>
-        <input type="radio"name="Gender"id ="Female"autocomplete="on">
-        <label for="Gender">Others</label>
-        <input type="radio"name ="Gender"id="Others"autocomplete="on">
-        <label for="email"><br/><br/>Email:</label>
-        <input type="email" name="email" id="email" placeholder="Email"autocomplete="on">
-        <label for="Password">Password:</label>
-        <input type="password" name="password" id="password"autocomplete="on">
-        <label for="birthday">Birthday</label>
-        <input type="date" name="date" id="date"autocomplete="on">
+        Gender: 
+        <label for="Register">Male</label>
+        <input type="radio"name ="Gender"id="Male">
+        <label for="Register">Female</label>
+        <input type="radio"name="Gender"id ="Female">
+        <label for="Register">Others</label>
+        <input type="radio"name ="Gender"id="Others">
+        <label for="Register"><br/><br/>Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email"autocomplete="email">
+        <label for="Register">Password:</label>
+        <input type="password" name="password" id="password"autocomplete="new-password">
+        <label for="Register">Birthday</label>
+        <input type="date" name="date" id="date"autocomplete="Birthday">
         <br/>
-        <label for="terms">I agree to terms and conditions </label>
-        <input type="checkbox" name="terms_agree" id="terms_agree"autocomplete="on">
+        <label for="Register">I agree to terms and conditions </label>
+        <input type="checkbox" name="terms_agree" id="terms_agree" required autocomplete="checkbox">
         <br/>
-        <label for="submit"></label>
-        <input type="submit" value="Submit" autocomplete="on">
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
