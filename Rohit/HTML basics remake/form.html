@@ -8,9 +8,9 @@
 </head>
 <body>
     <h1>Register</h1>
- <form autocomplete="on"> 
-    First name: <input type="text" placeholder="First name"  required />
-    Last name: <input type="text" placeholder="Last name" required /><br>
+ <form> 
+    First name: <input type="text" placeholder="First name" autocomplete="given-name" required />
+    Last name: <input type="text" placeholder="Last name" autocomplete="family-name" required /><br>
     <br>
     <label for="gender">gender:</label> 
     <label for="male">Male</label>
@@ -21,11 +21,11 @@
     <input  name="gender" type="radio" value="others" /> <br>
     <br>
     <label for="email">Email:</label>
-    <input  name="Email" type="email" id="email" size="30" placeholder="Email" required/>
+    <input  name="Email" type="email" id="email" size="30" placeholder="Email" autocomplete="email" required/>
     <label for="password">Password:</label>
-    <input  name="password" type="password" minlength="5" maxlength="15" placeholder="Password"   required/>
+    <input  name="password" type="password" minlength="5" maxlength="15" placeholder="password" autocomplete="new-password"  required/>
     <label for="birthday">Birthday:</label>
-    <input  name="birthday" type="date" /> 
+    <input  name="birthday" type="date" autocomplete="bday" /> 
     <br>
     <label for="agreement">I agree to the terms and conditions</label>
     <input id="agreement" type="checkbox" required > <br>
