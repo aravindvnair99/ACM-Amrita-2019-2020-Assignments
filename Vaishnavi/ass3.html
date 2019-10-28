@@ -8,11 +8,11 @@
 </head>
 <body>
     <h1>Register</h1>
-        <form>
+        <form autocomplete="on">
             <label>First Name</label>
             <input id="user" name="user first name" type="text" required />
             <label>Last Name</label>
-            <input id="user" name="user last name" type="text" required />
+            <input id="user name" name="user last name" type="text" required />
             <br/>
             <label>Gender</label>
             <input type="radio" name="gender" value="Male" />Male
@@ -23,7 +23,7 @@
 <label>Password</label>
             <input type="password" name="password"/>
             <label>Birthday</label>
-            <input type="date"/>
+            <input type="date" autocomplete="off"/>
             <br/>
             <input type="submit" value="Submit"/>
         </form>
