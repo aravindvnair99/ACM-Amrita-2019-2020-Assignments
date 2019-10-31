@@ -14,11 +14,11 @@
             <br>
             Gender:
             <label for="Male">Male:</label>
-            <input type="radio" name="gender" id="Male" value="Male">
+            <input type="radio" name="gender" id="Male" value="Male" required>
             <label for="Female">Female:</label>
-            <input type="radio" name="gender" id="Female" value="Female">
+            <input type="radio" name="gender" id="Female" value="Female" required>
             <label for="Other">Other:</label>
-            <input type="radio" name="gender" id="Other" value="Other" >
+            <input type="radio" name="gender" id="Other" value="Other" required>
             <br>
             <br>
             Email:
@@ -26,9 +26,9 @@
             Password:
             <input type="password" name="password" minlength="5" maxlength="15" required autocomplete="new-password">
             Birthday:
-            <input type="date" name="birthday" autocomplete="bday"><br>
+            <input type="date" name="birthday" autocomplete="bday" required><br><br>
             I agree to the terms and conditions
-            <input type="checkbox" name="agree" required><br>
+            <input type="checkbox" name="agree" required><br><br>
             <input type="submit" value="submit">
 
         </form>
