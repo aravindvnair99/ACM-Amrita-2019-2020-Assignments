@@ -7,29 +7,29 @@
 
 	<h2>Register</h2>
 
-	<form id="RegistrationForm" autocomplete="on">
+	<form id="RegistrationForm">
 		<label for="First Name">First Name</label>
-		<input type="text" name="First Name" placeholder="First Name" required/>
+		<input type="text" name="First Name" placeholder="First Name" autocomplete="off" required/>
 		<label for="Last Name">Last Name</label>
-		<input type="text" name="lastname" placeholder="First Name" required>
+		<input type="text" name="lastname" placeholder="First Name" autocomplete="off" required>
 		<br><br>
 		Gender:
 		<label for="male">Male</label>
-		<input type="radio" name="gender" id="male" value="male"required/>
+		<input type="radio" name="gender" id="male" value="male" autocomplete="on" required/>
 		<label for="female">Female</label>
-		<input type="radio" name="gender" id="female" value="female"required/>
+		<input type="radio" name="gender" id="female" value="female" autocomplete="on" required/>
 		<label for="others">Others</label>
-		<input type="radio" name="gender" id="others" value="others"required/>
+		<input type="radio" name="gender" id="others" value="others" autocomplete="on" required/>
 		<br><br>
 		<label for="email">Email:</label>
-		<input type="email"name="Email" id="email" size="30" placeholder="Email" required/>
+		<input type="email"name="Email" id="email" size="30" placeholder="Email" autocomplete="off" required/>
 		<label for="password">Password:</label>
-		<input type="password" name="psw" minlength="5" maxlength="15"required>
+		<input type="password" name="psw" minlength="5" maxlength="15" autocomplete="off" required>
 		<label for="birthday">Birthday</label>
-		<input type="date" name="birthday"required/>
+		<input type="date" name="birthday" autocomplete="off" required/>
 		<br>
 		<label for="Check">I agree to terms and conditions</label>
-		<inout type="checkbox" name="check" value="check">
+		<input type="checkbox" name="check" value="check" required/>
 	        <br>
 		<input type="submit" value="Submit"/>
 	</form>
