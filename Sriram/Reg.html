@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration page</title>
+  </head>
+  <body>
+    <h2>Register</h2>
+
+    <form id="Form">
+      First name:
+      <input type="text" name="firstname" placeholder="First name" autocomplete="given-name" required/>
+      Last name:
+      <input type="text" name="lastname" placeholder="Last name" autocomplete="family-name" required/><br /><br />
+      Gender:
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="male" required/> 
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="female" required/> 
+      <label for="other">Other</label> 
+      <input type="radio" name="gender" value="other" required/> <br /><br />
+      Email:
+      <input type="email" name="email" autocomplete="email" required />
+      Password:
+      <input type="password" name="psw" autocomplete="new-password" required/>
+      Birthday: <input type="date" name="bday" autocomplete="bday" required/><br />
+     I agree to terms and conditions <input type="checkbox" name="terms" required><br>
+
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
