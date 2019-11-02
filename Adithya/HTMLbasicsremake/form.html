@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <p>
+        <label for="First Name">First Name</label>
+        <input type="text"  name="First Name" placeholder="First Name" required>
+        <label for="Last Name">Last Name</label>
+        <input type="text"  name="Last Name" placeholder="Last Name" required>
+        </p>
+        <p>
+        Gender:<label for="gender">Male:</label>
+        <input type="radio" name="gender" value="Male">
+        <label for="gender">Female:</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="gender">Other:</label>
+        <input type="radio" name="gender" value="Other">
+        </p>
+        <p>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" placeholder="Email" required  >
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" minlength="5" maxlength="15" required>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="Birthday"><br>
+        <label for="Check">I agree to terms and conditions</label>
+        <input type="checkbox" name="Check" value="check"><br>
+        <input type="submit" value="Submit"> 
+        </p>
+    </form>
+    
+</body>
+</html>
