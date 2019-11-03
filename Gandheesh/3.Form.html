@@ -1,27 +1,41 @@
 <html>
-    <head><meta charset="UTF-8">
-        <meta name="description" content="Html basics">
-       <meta name="viewport" content="width=device-width,intial-scale=1.0"><title>Forms</title></head>
-    <body>
-        <h1>Register</h1>
-        <form>
-           First Name: <input type="text" placeholder="First Name" autocomplete="name"/>
-           Last Name: <input type="text" placeholder="Last Name" autocomplete=" Name"/>
-           <br><br>
-           Gender:
-           <input type="radio" name="gender"/>Male
-           <input type="radio" name="gender"/>Female
-           <input type="radio" name="gender"/>Others
-           <br><br>
-          Email: <input type="email" required name="myemail" placeholder="Email" autocomplete="email"/>
-          Password: <input type="password" minlength="5" maxlength="15" autocomplete="current-password"/>
-          Birthday:<input type="date" format="dd/mm/yyyy"/ autocomplete="bday">
-          <br><br>
-          I agree to terms and condition
-          <input type="Checkbox" />
-          <br>
-          <input type="submit" name="Submit" value="Submit"/>
-    
-        </form>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Html basics">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form>
+        First Name:
+        <input type="text" placeholder="First Name" autocomplete="given-name" required />
+        Last Name:
+        <input type="text" placeholder="Last Name" autocomplete="additional-name" required />
+        <br><br>
+        <label for="Gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other" required>
+        <br><br>
+        Email:
+        <input type="Email" id="Email" pattern="[^@]*@[^@]*" placeholder="Email" autocomplete="Email" required />
+        Password:
+        <input type="password" minlength="5" maxlength="15" autocomplete="new-password" required />
+        Birthday:
+        <input type="date" format="dd/mm/yyyy"/ id="birthday" value="birthday" autocomplete="bday" required />
+        <br><br>
+        I agree to terms and condition
+        <input type="Checkbox" required />
+        <br>
+        <input type="submit" name="Submit" value="Submit" />
+
+    </form>
+</body>
+
 </html>
