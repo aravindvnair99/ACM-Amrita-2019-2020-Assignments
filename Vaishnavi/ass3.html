@@ -8,22 +8,22 @@
 </head>
 <body>
     <h1>Register</h1>
-        <form autocomplete="on">
+        <form autocomplete="off">
             <label>First Name</label>
             <input id="user" name="user first name" type="text" required />
             <label>Last Name</label>
-            <input id="user name" name="user last name" type="text" required />
+            <input id="username" name="user last name" type="text" required />
             <br/>
             <label>Gender</label>
             <input type="radio" name="gender" value="Male" />Male
             <input type="radio" name="gender" value="Female"/>Female
             <input type="radio" name="gender" value="others"/>others<br/>
-            <label>Email</label>
-            <input type="email" name="email"/>
+            <label for="email">your Email adress:</label>
+            <input type="text" name="email" placeholder="email200.123@gmail.com"/>
 <label>Password</label>
-            <input type="password" name="password"/>
-            <label>Birthday</label>
-            <input type="date" autocomplete="off"/>
+            <input type="password" name="password" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{5,15}$" title="min length is 5 and max is 15"/>
+<label>Birthday</label>
+            <input type="date"/>
             <br/>
             <input type="submit" value="Submit"/>
         </form>
