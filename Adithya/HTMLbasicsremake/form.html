@@ -11,21 +11,21 @@
     <form>
         <p>
         <label for="First Name">First Name</label>
-        <input type="text"  name="First Name" placeholder="First Name" required>
+        <input type="text"  name="First Name" placeholder="First Name" required autocomplete="name">
         <label for="Last Name">Last Name</label>
-        <input type="text"  name="Last Name" placeholder="Last Name" required>
+        <input type="text"  name="Last Name" placeholder="Last Name" required autocomplete="name">
         </p>
         <p>
-        Gender:<label for="gender">Male:</label>
-        <input type="radio" name="gender" value="Male">
-        <label for="gender">Female:</label>
-        <input type="radio" name="gender" value="Female">
-        <label for="gender">Other:</label>
-        <input type="radio" name="gender" value="Other">
+        Gender:Male:
+        <input type="radio" name="gender" value="Male" autocomplete="sex">
+        Female:
+        <input type="radio" name="gender" value="Female" autocomplete="sex">
+        Other:
+        <input type="radio" name="gender" value="Other" autocomplete="sex">
         </p>
         <p>
         <label for="Email">Email:</label>
-        <input type="email" name="Email" placeholder="Email" required  >
+        <input type="email" name="Email" placeholder="Email" required autocomplete="email" >
         <label for="Password">Password:</label>
         <input type="password" name="Password" minlength="5" maxlength="15" required autocomplete="new-password">
         <label for="birthday">Birthday</label>
