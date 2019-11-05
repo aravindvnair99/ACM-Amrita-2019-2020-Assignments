@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form id="Register">
+        <label for="First name">First Name</label>
+        <input type="text" placeholder="First Name" required autocomplete="given-name">
+        <label for="Last name">Last Name</label>
+        <input type="text" placeholder="Last Name"required autocomplete="family-name">
+        <br/><br/>
+        Gender: 
+        <label for="Male">Male</label>
+        <input type="radio"name ="Gender"id="Male" required autocomplete="sex">
+        <label for="Female">Female</label>
+        <input type="radio"name="Gender"id ="Female" required autocomplete="sex">
+        <label for="Others">Others</label>
+        <input type="radio"name ="Gender"id="Others"required autocomplete="sex">
+        <label for="email"><br/><br/>Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email" autocomplete="email">
+        <label for="Password">Password:</label>
+        <input type="password" name="password" id="password">
+        <label for="Birthday">Birthday</label>
+        <input type="date" name="date" id="date" autocomplete="bday">
+        <br/>
+        <label for="terms_agree">I agree to terms and conditions </label>
+        <input type="checkbox" name="terms_agree" id="terms_agree" required autocomplete="checkbox">
+        <br/>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
