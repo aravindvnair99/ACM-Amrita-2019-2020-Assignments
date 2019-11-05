@@ -1,41 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form</title>
 </head>
+
 <body>
     <h1>Register</h1>
-    <form>
+    <form id="reg">
         <p>
-        <label for="First Name">First Name</label>
-        <input type="text"  name="First Name" placeholder="First Name" required autocomplete="given-name">
-        <label for="Last Name">Last Name</label>
-        <input type="text"  name="Last Name" placeholder="Last Name" required autocomplete="family-name">
+            <label for="First Name">First Name</label>
+            <input type="text" name="First Name" id="First Name" placeholder="First Name" required
+                autocomplete="given-name">
+            <label for="Last Name">Last Name</label>
+            <input type="text" name="Last Name" id="Last Name" placeholder="Last Name" required
+                autocomplete="family-name">
         </p>
+
         <p>
-        Gender: 
-        <labe for="male">Male:</labe>
-        <input type="radio" name="gender" value="Male" >
-        <labe for="female">Female:</labe>
-        <input type="radio" name="gender" value="Female" >
-        <labe for="other">Other:</labe>
-        <input type="radio" name="gender" value="Other">
+            Gender:
+            <labe for="male">Male:</labe>
+            <input 
+                type="radio" 
+                name="gender" 
+                id="male" 
+                value="Male"
+            />
+            <labe for="female">Female:</labe>
+            <input 
+                type="radio" 
+                name="gender"   
+                id="female" 
+                value="Female"
+            />
+            <labe for="other">Other:</labe>
+            <input 
+                type="radio" 
+                name="gender" 
+                id="other" 
+                value="Other"
+            />
         </p>
+
         <p>
-        <label for="Email">Email:</label>
-        <input type="email" name="Email" placeholder="Email" required autocomplete="email" >
-        <label for="Password">Password:</label>
-        <input type="password" name="Password" minlength="5" maxlength="15" required autocomplete="new-password">
-        <label for="birthday">Birthday</label>
-        <input type="date" name="Birthday" autocomplete="bday"><br>
-        <label for="Check">I agree to terms and conditions</label>
-        <input type="checkbox" name="Check" value="check" required><br>
-        <input type="submit" value="Submit"> 
+            <label for="Email">Email:</label>
+            <input 
+                type="email"    
+                name="Email" 
+                id="Email" 
+                placeholder="Email" 
+                required 
+                autocomplete="email"
+            />
+            <label for="Password">Password:</label>
+            <input 
+                type="password" 
+                name="Password" 
+                id="password" 
+                minlength="5" 
+                maxlength="15" 
+                required
+                autocomplete="new-password"
+            />
+            <label for="birthday">Birthday</label>
+            <input 
+                type="date" 
+                name="Birthday" 
+                id="birthday" 
+                autocomplete="bday"
+            /><br>
+            <label for="Check">I agree to terms and conditions</label>
+            <input 
+                type="checkbox"     
+                name="Check"    
+                id="Check" 
+                value="check" 
+                required
+            /><br>
+            <input type="submit" value="Submit">
         </p>
     </form>
-    
 </body>
+
 </html>
