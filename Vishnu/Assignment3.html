@@ -10,8 +10,8 @@
 <form action="" method="post">
 <h1>Register</h1>
 <p>
-    First Name <input type="text" name="FirstName" required>
-    Last Name <input type="text" name="LastName" required>
+    First Name <input type="text" name="FirstName" required autocomplete="given-name">
+    Last Name <input type="text" name="LastName" required autocomplete="family-name">
 </p>
 <p>
     Gender: Male: <input type="radio" name="Gender" value="male"/>
@@ -19,9 +19,9 @@
     Others: <input type="radio" name="Gender" value="others"/>
 </p>
 <p>
-Email: <input type="email" name="Email" id="email" required>
-Password: <input type="password" name="pwd" min="5" max="15" required>
-Birthsday <input type="date" name="birthday">
+Email: <input type="email" name="Email" id="email" required autocomplete="email">
+Password: <input type="password" name="pwd" min="5" max="15" required autocomplete="current-password">
+Birthsday <input type="date" name="birthday" autocomplete="bday">
 </p>
 <p>
 I agree to the terms and conditions <input type="checkbox" name="confirm" value="confirm" required>
