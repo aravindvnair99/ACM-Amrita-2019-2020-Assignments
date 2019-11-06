@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+       <head>
+        <title>Form Template</title>
+       </head>
+    <body>
+        
+        <form id="form1">
+        <h1>Register</h1>
+            <p>
+                <label for="first">First Name</label>
+                <input type="text" name="first" placeholder="First Name" required>
+                <label for="last">Last Name</label>
+                <input type="text" name="last" placeholder="Last Name" required>
+            </p>
+            <p>
+              Gender:
+              <label for="gender">Male:</label>
+                <input type="radio" name="gender" required>
+                <label for="gender">Female:</label>
+                <input type="radio" name="gender" required>
+                <label for="gender">Others:</label>
+                <input type="radio" name="gender" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Email" required>
+                <label for="password">Password:</label>
+                <input type="password" pattern=".{5,15}" title="PLease enter minimum 5 and maximum 15 characters" required>
+                <label for="date">Birthday</label>
+            <input type="date">
+            </p>
+            <p>
+                <label for="check">I agree to the terms and conditions</label>
+                <input type="checkbox" name="check">
+            </p>
+            <p>
+                <button>Submit</button>
+            </p>
+            
+            
+        </form>
+    </body>
+</html>

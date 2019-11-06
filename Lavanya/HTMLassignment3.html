@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>HTMLassignment3</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+
+	<h2>Register</h2>
+
+	<form id="RegistrationForm">
+		<label for="First Name">First Name</label>
+		<input type="text" name="First Name" placeholder="First Name" autocomplete="on" required/>
+		<label for="Last Name">Last Name</label>
+		<input type="text" name="lastname" placeholder="First Name" autocomplete="on" required>
+		<br><br>
+		Gender:
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male" value="male" autocomplete="on" required/>
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female" value="female" autocomplete="on" required/>
+		<label for="others">Others</label>
+		<input type="radio" name="gender" id="others" value="others" autocomplete="on" required/>
+		<br><br>
+		<label for="email">Email:</label>
+		<input type="email"name="Email" id="email" size="30" placeholder="Email" autocomplete="on" required/>
+		<label for="password">Password:</label>
+		<input type="password" name="psw" minlength="5" maxlength="15" autocomplete="on" required>
+		<label for="birthday">Birthday</label>
+		<input type="date" name="birthday" autocomplete="on" required/>
+		<br>
+		<label for="Check">I agree to terms and conditions</label>
+		<input type="checkbox" name="check" value="check" required/>
+	        <br>
+		<input type="submit" value="Submit"/>
+	</form>
+
+</body>
+
+</html>
