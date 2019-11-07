@@ -13,50 +13,98 @@
 
 
 
-        <h1><b>Register</b></h1>
+        <h1>Register</h1>
 
 
 
         <form id="registration_form" method="post">
                 <label for="first name"><strong>First name:</strong></label>
-                <input type="text" name="firstname" placeholder="First Name" autocomplete="given-name" required>
+                        <input 
+                                type="text" 
+                                name="firstname" 
+                                id="fname"
+                                placeholder="First Name" 
+                                autocomplete="given-name" 
+                                required>
 
                 <label for="last name"><strong>Last name:</strong></label>
-                <input type="text" name="lastname" placeholder="Last Name" autocomplete="family-name" required>
+                        <input 
+                                type="text" 
+                                name="lastname"
+                                id="lname" 
+                                placeholder="Last Name" 
+                                autocomplete="family-name" 
+                                required>
                 <br><br>
-
 
 
                 <b>Gender:</b>
                 <label for="male">Male</label>
-                <input type="radio" name="gender" id="male" value="male" required>
+                        <input 
+                                type="radio" 
+                                name="gender" 
+                                id="male" 
+                                value="male" 
+                                required>
 
                 <label for="female">Female</label>
-                <input type="radio" name="gender" id="female" value="female">
+                        <input 
+                                type="radio" 
+                                name="gender" 
+                                id="female" 
+                                value="female">
 
                 <label for="others">Others</label>
-                <input type="radio" name="gender" id="others" value="others">
-                <br><br>
+                        <input 
+                                type="radio" 
+                                name="gender" 
+                                id="others" 
+                                value="others">
+                        <br><br>
+                </div>
 
 
 
                 <label for="E-mail"><strong>E-mail</strong></label>
-                <input type="email" name="email" placeholder="E-mail" autocomplete="email" required>
+                        <input 
+                                type="email" 
+                                name="email" 
+                                placeholder="E-mail" 
+                                autocomplete="email" 
+                                required>
+                </div>
 
                 <label for="Password"><strong>Password</strong></label>
-                <input type="password" name="password" placeholder="Password" minlength="5" maxlength="15"
-                        autocomplete="new-password" required>
+                        <input 
+                                type="password" 
+                                name="password" 
+                                id="pw"
+                                placeholder="Password" 
+                                minlength="5"
+                                maxlength="15"
+                                autocomplete="new-password" 
+                                required>
 
                 <label for="Birthday"><strong>Birthday</strong></label>
-                <input type="date" name="birthday" autocomplete="bday" required>
+                        <input 
+                                type="date" 
+                                name="birthday"
+                                id="bday" 
+                                autocomplete="bday" 
+                                required>
+                        <br><br>
+
+
+
+                <label for="terms and conditions"><strong>I agree to the terms and conditions</strong></label>
+                        <input
+                                type="checkbox" 
+                                name="terms & conditions"
+                                id="t&c"
+                                required>
                 <br><br>
-
-
-
-                <label for="terms and conditions"><strong>I agree to the terms and conditions</strong></label><input
-                        type="checkbox" required>
-                <br><br>
-                <input type="submit">
+                        <input 
+                                type="submit">
         </form>
 
 
