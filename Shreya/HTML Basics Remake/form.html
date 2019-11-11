@@ -13,24 +13,24 @@
 			<label for="first">First Name</label>
 			<input type="text" name="first" placeholder="First Name" required>
 			<label for="last">Last Name</label>
-			<input type="text" name="last" placeholder="Last Name" required>
+			<input type="text" name="last" placeholder="Last Name" autocomplete="name" required>
 		</p>
 		<p>
 			Gender:
 			<label for="gender">Male:</label>
-			<input type="radio" name="gender" required>
+			<input type="radio" name="gender" autocomplete="off" required>
 			<label for="gender">Female:</label>
-			<input type="radio" name="gender" required>
+			<input type="radio" name="gender" autocomplete="off" required>
 			<label for="gender">Others:</label>
-			<input type="radio" name="gender" required>
+			<input type="radio" name="gender"  autocomplete="off" required>
 		</p>
 		<p>
 			<label for="email">Email:</label>
-			<input type="email" placeholder="Email" required>
+			<input type="email" placeholder="Email" autocomplete="email" required>
 			<label for="password">Password:</label>
-			<input type="password" pattern=".{5,15}" title="PLease enter minimum 5 and maximum 15 characters" required>
+			<input type="password" pattern=".{5,15}" title="PLease enter minimum 5 and maximum 15 characters" autocomplete="current-password" required>
 			<label for="date">Birthday</label>
-			<input type="date">
+			<input type="date" autocomplete="bday">
 		</p>
 		<p>
 			<label for="check">I agree to the terms and conditions</label>
