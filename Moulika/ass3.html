@@ -16,17 +16,17 @@
         <br/><br/>
         Gender: 
         <label for="Male">Male</label>
-        <input type="radio"name ="Gender"id="Male" required autocomplete="sex">
+        <input type="radio"name ="Gender"id="Male" required autocomplete="sex"value="Male">
         <label for="Female">Female</label>
-        <input type="radio"name="Gender"id ="Female" required autocomplete="sex">
+        <input type="radio"name="Gender"id ="Female" required autocomplete="sex" value="Female">
         <label for="Others">Others</label>
-        <input type="radio"name ="Gender"id="Others"required autocomplete="sex">
+        <input type="radio"name ="Gender"id="Others"required autocomplete="sex" value="Others">
         <label for="email"><br/><br/>Email:</label>
-        <input type="email" name="email" id="email" placeholder="Email" autocomplete="email">
+        <input type="email" name="email" id="email" placeholder="Email" autocomplete="email" required>
         <label for="Password">Password:</label>
-        <input type="password" name="password" id="password" autocomplete="new-password">
+        <input type="password" name="password" id="password" minlength="5" maxlength="15" autocomplete="new-password" required>
         <label for="Birthday">Birthday</label>
-        <input type="date" name="date" id="date" autocomplete="bday"required>
+        <input type="date" name="birthdate" value="birthdate" id="birthdate" format="dd/mm/yyyy" autocomplete="bday"required>
         <br/>
         <label for="terms_agree">I agree to terms and conditions </label>
         <input type="checkbox" name="terms_agree" id="terms_agree" required >
