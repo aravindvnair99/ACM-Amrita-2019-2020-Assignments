@@ -1,4 +1,4 @@
-# :office: ACM Amrita 2019-2020 Assignments
+# :office: ACM Amrita 2019-2020 Assignments ![](https://komarev.com/ghpvc/?username=AravindVNair99&label=Views)
 
 Repository for submitting all assignments given by ACM Amrita for the year 2019 - 2020.
 
